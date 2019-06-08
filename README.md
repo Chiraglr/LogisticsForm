@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Initially run: 
   1) npm init
   2) npm install
+  
 Then,
 In the project directory, you can run:
 
