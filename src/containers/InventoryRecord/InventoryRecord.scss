@@ -1,0 +1,58 @@
+@import '../../styles/typography.scss';
+@import '../../styles/mixins.scss';
+
+.inventory-record{
+    min-height: 52px;
+    padding: 0.7rem 0 0.7rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $input-border-color;
+    .input{
+        padding: 0.3rem;
+        box-sizing: border-box;
+        // width: 300px;
+        // min-width: 200px;
+        @include font-09-regular;
+        color: $text-color2;
+        border: 1px solid $input-border-color;
+        outline: none;
+    }
+    .product-name-input{
+        width: 194px;
+        min-width: 194px;
+        height: 27.59px;
+    }
+    .qty-input{
+        width: 67px;
+        min-width: 67px;
+        height: 27.59px;
+    }
+    .unit-price-input{
+        width: 95px;
+        min-width: 68px;
+        height: 27.59px;
+    }
+    .total-price-input{
+        background-color: $input-bgn-color;
+        width: 101px;
+        min-width: 67px;
+        height: 27.59px;
+    }
+    .notes-input{
+        height: 52px;
+        width: 118px;
+        min-width: 118px;
+    }
+    .delete{
+        margin-top: 0.5rem;
+        padding-top: 0.2rem;
+        background-color: $button-bgn-color2;
+        outline: none;
+        // @include font-09-regular;
+    }
+}
+.inventory-record:last-child{
+    border-bottom: 0;
+}

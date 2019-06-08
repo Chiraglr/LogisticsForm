@@ -1,0 +1,14 @@
+@import './styles/mixins.scss';
+@import './styles/typography.scss';
+
+.edit-order-page{
+  width: 100vw;
+  min-width: 972px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color1;
+  overflow: scroll;
+}

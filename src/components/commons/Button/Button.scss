@@ -1,0 +1,11 @@
+@import '../../../styles/typography.scss';
+
+.button{
+    button{
+        @include font-10-regular;
+        border-width: 0;
+        color: white;
+        cursor: pointer;
+        outline: none;
+    }
+}

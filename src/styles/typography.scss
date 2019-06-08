@@ -1,0 +1,95 @@
+@mixin font-40-semi-bold {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+@mixin font-20-bold {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+@mixin font-20-semi-bold  {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+@mixin font-17-bold {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+@mixin font-17-semi-bold {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+@mixin font-15-font-heavy {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+}
+@mixin font-15-semi-bold {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+@mixin font-15-regular {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+@mixin font-14-regular {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+@mixin font-14-semi-bold {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+@mixin font-14-semi-bold {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+@mixin font-12-semi-bold {
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+@mixin font-12-regular {
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+@mixin font-10-bold {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+@mixin font-10-bold {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+@mixin font-10-regular {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+@mixin font-09-regular {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+@mixin font-08-regular {
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    font-weight: normal;
+}
+@mixin font-05-regular {
+    font-family: sans-serif;
+    font-size: 0.3rem;
+    font-weight: normal;
+}

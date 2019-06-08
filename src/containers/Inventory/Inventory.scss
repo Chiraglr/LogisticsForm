@@ -1,0 +1,42 @@
+@import '../../styles/typography.scss';
+@import '../../styles/mixins.scss';
+
+.inventory{
+    min-height: 300px;
+    width: 823px;
+    min-width: 823px;
+    display: flex;
+    flex-direction: column;
+    .inventory-titles{
+        padding-left: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid $input-border-color;
+        .title{
+            @include font-10-bold;
+            margin-bottom: 0.5rem;
+        }
+        .product-id{
+            width: 102px;
+        }
+        .product-name{
+            width: 194px;
+        }
+        .qty{
+            width: 67px;
+        }
+        .unit-price{
+            width: 95px; 
+        }
+        .total-price{
+            width: 101px;
+        }
+        .notes{
+            width: 118px;
+        }
+        .remove{
+            width: 76.25px;
+        }
+    }
+}

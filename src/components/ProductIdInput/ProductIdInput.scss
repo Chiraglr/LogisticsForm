@@ -1,0 +1,26 @@
+@import '../../styles/typography.scss';
+@import '../../styles/mixins.scss';
+
+.product-id-input-container{
+    display: flex;
+    flex-direction: row;
+    .product-id-input{
+        padding: 0.3rem;
+        box-sizing: border-box;
+        height: 27.59px;
+        // width: 300px;
+        // min-width: 200px;
+        width: 76px;
+        @include font-09-regular;
+        color: $text-color2;
+        border: 1px solid $input-border-color;
+        outline: none;
+    }
+    .autofill{
+        @include font-10-regular;
+        background-color: $button-bgn-color1;
+        padding: 0.3rem;
+        box-sizing: border-box;
+        outline: none;
+    }
+}

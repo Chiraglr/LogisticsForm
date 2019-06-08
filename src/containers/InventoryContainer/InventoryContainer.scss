@@ -1,0 +1,38 @@
+@import '../../styles/typography.scss';
+@import '../../styles/mixins.scss';
+
+.inventory-container{
+    // height: 53%;
+    // min-height: 391px;
+    // max-height: 514px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem 4rem 1rem;
+    background-color: $background-color2;
+    margin-bottom: 1rem;
+    .inventory-content-holder{
+        height: 100%;
+    }
+    .inventory-options{
+        width: 823px;
+        min-width: 823px;
+        display: flex;
+        flex-direction: column;
+        .add-container{
+            width: 150px;
+            align-self: flex-start;
+            .add-product{
+                padding: 0.5rem 1rem;
+                background-color: $button-bgn-color1;
+            }
+        }
+        .save-container{
+            align-self: flex-end;
+            width: 56px;
+            .save{
+                padding: 0.5rem 1rem;
+                background-color: $button-bgn-color1;
+            }
+        }
+    }
+}
